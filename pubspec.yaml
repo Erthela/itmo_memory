@@ -9,8 +9,11 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.5
+  # firebase
   flutterfire: ^0.0.1
   firebase_core: ^2.4.0
+  cloud_firestore: ^4.2.0
+
   gap: ^2.0.1
   cached_network_image: ^3.2.3
   collection: ^1.16.0
@@ -20,14 +23,41 @@ dependencies:
   flutter_zoom_drawer: ^3.0.3
   photo_view: ^0.14.0
   modal_bottom_sheet: ^2.1.2
+  google_fonts: ^3.0.1
+  flutter_svg: ^1.1.6
+  sliding_up_panel: ^2.0.0+1
+  auto_route: ^5.0.4
+  expandable: ^5.0.1
+
+  # for models
+  freezed_annotation: ^2.0.3
+  json_annotation: ^4.5.0
+  flutter_bloc: ^8.1.1
+  equatable: ^2.0.5
+  card_swiper: ^2.0.4
+  fluttertoast: ^8.1.2
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^2.0.0
+  # linter
+  dart_code_metrics: ^5.0.1
+  very_good_analysis: ^3.1.0
+  # for models
+  freezed: ^2.2.1
+  json_serializable: ^6.5.4
+  # helper generators
+  build_runner: ^2.3.3
+  auto_route_generator: ^5.0.3
 flutter:
   uses-material-design: true
+#  generate: true
+  assets:
+    - assets/svg/
   fonts:
+    - family: Itmo_logo
+      fonts:
+        - asset: fonts/Itmo_logo.ttf
     - family: Muller
       fonts:
         - asset: fonts/Muller/MullerBold.ttf

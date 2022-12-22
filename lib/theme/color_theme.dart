@@ -1,5 +1,12 @@
 import 'package:flutter/cupertino.dart';
 
+class Colours {
+  Colours._();
+
+  static const blue = Color(0xFF1846C7);
+  static const pink = Color(0xFFEE215B);
+}
+
 class ISColors {
   // This class is not meant to be instantiated or extended; this constructor
   // prevents instantiation and extension.
